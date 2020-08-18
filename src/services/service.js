@@ -3,7 +3,7 @@ import axios from "axios";
 
 class DiscursoService {
     getAll() {
-      return axios.get("/api/discurso");
+      return axios.get("http://201.39.70.40/api/discurso");
     }
   
     get(id) {
